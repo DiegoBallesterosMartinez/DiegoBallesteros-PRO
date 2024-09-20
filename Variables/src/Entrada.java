@@ -8,6 +8,7 @@ public class Entrada {
 
         System.out.println("Proyecto de variables");
         edadClase = 20; // Cambio el valor a una variable declarada arriba
+        valoresMaximos();
 
         // Variables simples con minuscula (float) - Variables complejas con mayuscula (String)
         // Tipo nombre = valor (el valor es opcional)
@@ -18,6 +19,9 @@ public class Entrada {
         Character letraCompleja = 'a';
 
         short numeroPequeño = 12; // numero pequeño (-255, 255)
+        Short pequenioCompleto = 23;
+        // pequenioCompleto
+
         int edad = 21; // numeros sin decimal (-65.435, 65.435)
         Integer edadCompleja = 43;
 
@@ -48,6 +52,11 @@ public class Entrada {
     public static void otroMetodo(){
         int edadClase = 90;
         // this.edadClase = 90;
+    }
+    public static void valoresMaximos(){
+        System.out.println("Imprimiendo los valores maximos y minimos de los tipos");
+       //Ejercio en otra ventana nombre: EjercicioMaximos
+
     }
 
 }
