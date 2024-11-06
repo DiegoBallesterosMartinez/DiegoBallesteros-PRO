@@ -4,10 +4,10 @@ public class SimulacroT3 {
     public static void main(String[] args) {
 
         // llamada de ejercicios:
-        //ejercicio1();
+        ejercicio1();
         //ejercicio2();
         //ejercicio3();
-        ejercicio4();
+        //ejercicio4();
 
         // cierre de main
     }
@@ -15,7 +15,7 @@ public class SimulacroT3 {
     public static void ejercicio1() {
         Scanner lectorTeclado = new Scanner(System.in);
 
-        int numero = 0;
+        int numero;
         int sumaPares = 0;
         int sumaImpares = 0;
         int contador = 0;
@@ -41,7 +41,8 @@ public class SimulacroT3 {
                 sumaImpares += numero;
             }
         }
-        int opcion = 0;
+        // declarar el int opcion
+        int opcion ;
         do {
             System.out.println("\nBienvenido a programa de Diego");
             System.out.println("1-Suma de los números pares introducidos.");
@@ -51,6 +52,9 @@ public class SimulacroT3 {
             System.out.println("5-Cuantos números de los introducidos han sido ceros, cuántos han sido pares\n" + "y cuantos impares.");
             System.out.println("6. Salir.");
             System.out.println("Elige una opcion:");
+
+            // pedir la opcion
+            opcion = lectorTeclado.nextInt();
 
             switch (opcion){
                 case 1:
@@ -122,14 +126,18 @@ public class SimulacroT3 {
 
     double saldo = 0;
     final int PinCorrecto = 1111;
-    int opcion = 0;
+    // declarar el int opcion
+    int opcion;
         do {
          System.out.println("Bienvenido al cajero automatico");
          System.out.println("1. Ingresar dinero");
          System.out.println("2. Sacar dinero");
          System.out.println("3. Consultar estado de la cuenta");
          System.out.println("4. Salir");
-         System.out.println("Elige una opcion:");
+         System.out.println("Elige una opcion: ");
+
+         // pedir la opcion
+         opcion = lectorTeclado.nextInt();
 
           switch (opcion){
              case 1:
