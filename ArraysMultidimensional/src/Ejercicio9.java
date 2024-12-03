@@ -122,7 +122,7 @@ public class Ejercicio9 {
             }
         }
 
-        lectorTeclado.close();
+
     }
 
     // Función para ordenar el array de mayor a menor
